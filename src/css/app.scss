@@ -10,13 +10,33 @@
   height: 60px;
   display: flex;
   width: 100%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
   background-color: unset;
   align-items: center;
   justify-content: space-around;
   .header-menu {
     display: flex;
+    align-items: center;
+    .header-menu-child::before,
+    .header-menu-child:hover {
+      box-shadow: none;
+      color: unset;
+      background-color: unset;
+    }
+    display: flex;
     .header-menu-child:nth-child(2) {
-      margin-left: 26px;
+      margin-left: 56px;
     }
   }
+}
+.q-layout__section--marginal:hover {
+  background-color: none;
+}
+.cursor-auto {
+  cursor: auto;
+  
 }
