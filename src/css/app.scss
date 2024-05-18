@@ -5,15 +5,18 @@
   max-height: 1434px;
 }
 .hyperhire-header {
+  outline: #288be7;
+  outline-style: solid;
   height: 60px;
   display: flex;
   width: 100%;
   background-color: unset;
+  align-items: center;
   justify-content: space-around;
   .header-menu {
     display: flex;
-    .header-menu-child {
-      margin: 10px;
+    .header-menu-child:nth-child(2) {
+      margin-left: 26px;
     }
   }
 }
