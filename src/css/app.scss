@@ -1,1 +1,19 @@
-// app global css in SCSS form
+// desktop and mobile container
+.main-container {
+  background: linear-gradient(151.17deg, #26c2b9 8.69%, #288be7 126.06%);
+  max-width: 1920px;
+  max-height: 1434px;
+}
+.hyperhire-header {
+  height: 60px;
+  display: flex;
+  width: 100%;
+  background-color: unset;
+  justify-content: space-around;
+  .header-menu {
+    display: flex;
+    .header-menu-child {
+      margin: 10px;
+    }
+  }
+}
