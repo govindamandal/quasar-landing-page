@@ -4,6 +4,9 @@
   max-width: 1920px;
   max-height: 1434px;
 }
+.q-page {
+  height: 1042px;
+}
 .hyperhire-header {
   outline: #288be7;
   outline-style: solid;
@@ -38,5 +41,11 @@
 }
 .cursor-auto {
   cursor: auto;
-  
+}
+.q-footer {
+  position: relative;
+  max-width: 1920px;
+  min-height: 205px;
+  background-color: unset;
+  color: #343741;
 }
